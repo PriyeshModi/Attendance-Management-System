@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" style="background-image: linear-gradient(#ea8888,#ade994,white);height:100vh">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Add teacher</title>
+    <style >
+    *{
+    padding:0px;
+}
+
+
+.inp{
+    margin-top: 41px;
+    width:200px;
+    border-radius: 4px;
+    height:20px;
+    
+}
+#clas{
+    width: 50px;
+    height: 30px;
+    margin: 27px;
+}
+#form{
+    background:rgba(245, 241, 242, 0.3);
+    
+    
+    border:solid black;
+    
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    margin-left: 502px;
+    margin-top: 57px;
+    align-items:center;
+   
+    
+    
+}
+    
+    
+    </style>
+</head>
+<body>
+           <a href="adminfunc.html"><img style="width: 77px;height: 74px;border-radius:37px" src="png-clipart-computer-icons-back-icon-cdr-angle.png" alt="goback"></a> 
+     
+    <h1 style="position: absolute;left: 45%;top:8%">Add Teacher</h1>
+    <div id="form">
+    <form  action="addTeacher" method="post">
+        <label style="font-size: 20px;">Enter Name</label>
+        <input type="text" name="name" class="inp" required ><br>
+        <label style="font-size: 20px;">Enter Teacher Id</label>
+        <input type="text" name="teacherid"  class="inp" required><br>
+        <label style="font-size: 20px;">Enter Class Alloted</label>
+        <select name="classAlloted" id="clas">
+            <option value="1st">1st</option>
+            <option value="2nd">2nd</option>      
+            <option value="3rd">3rd</option>
+            <option value="4th">4th</option>
+            <option value="5th">5th</option>
+            <option value="6th">6th</option>
+            <option value="7th">7th</option>
+            <option value="8th">8th</option>
+            <option value="9th">9th</option>
+            <option value="10th">10th</option>
+            <option value="11th">11th</option>
+            <option value="12th">12th</option>      
+          </select><br>
+        <label style="font-size: 20px;    position: relative;top: -4%;">Enter Contact no.</label>
+        <input type="text" name="mobno"  style="position: relative;top: -4%; ; width:200px;border-radius: 4px;height:20px;" required><br>
+        <label style="font-size: 20px;">Enter Gender</label>
+        
+        <input type="radio" name="gender" value="Male" style="width: 20px;height: 20px;" >
+        <label >Male</label>
+        <input type="radio" name="gender" value="Female"  style="width: 20px;height: 20px;" >
+        <label >female</label><br>
+             <label style="font-size: 20px;">Enter Email id</label>
+        <input type="email" name="emailid"  class="inp" required><br>
+          <label style="font-size: 20px;">Enter password</label>
+        <input type="password" name="password"  class="inp" required><br>
+        
+
+        <input style="width: 112px;height: 34px;font-size: 17px;    margin-left: 82px; margin-top: 21px;" type="submit" value="submit">
+    </form>
+      
+</div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+*{
+    padding:0px;
+}
+
+
+.inp{
+    margin-top: 41px;
+    width:200px;
+    border-radius: 4px;
+    height:20px;
+    
+}
+#clas{
+    width: 50px;
+    height: 30px;
+    margin: 27px;
+}
+#form{
+    background:rgba(245, 241, 242, 0.3);
+    
+    
+    border:solid black;
+    
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    margin-left: 502px;
+    margin-top: 34px;
+    align-items:center;
+   
+    
+    
+}

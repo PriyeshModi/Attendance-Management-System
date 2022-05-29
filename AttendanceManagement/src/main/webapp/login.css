@@ -1,0 +1,32 @@
+*{
+    padding:0px;
+}
+#username{
+    width: 176px;   
+    height: 30px;
+    border-radius: 8px;
+}
+#password{
+    width: 176px;   
+    height: 30px;
+    margin-top:17px; 
+     border-radius: 8px;
+}
+#form{
+    background:rgba(245, 241, 242, 0.3);
+    
+    border-radius: 15px;
+    border:solid black;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    margin-left: 502px;
+    margin-top: 120px;
+    align-items:center;
+   
+    
+    
+}

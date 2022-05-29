@@ -1,0 +1,38 @@
+.form{
+    border: solid 3px white;
+    height:43vh;
+    width: 56%;
+    display:flex;
+    position: absolute;
+    left:350px;
+    top:200px;
+    box-shadow: -1px 1px 17px rgb(100, 27, 160) ;
+    flex-direction: row;
+    justify-content: space-evenly;
+     border-radius: 10px;
+
+}
+
+.form:hover{
+    box-shadow: -1px 1px 21px rgb(100, 27, 160) ;
+    ;
+}
+.formfont{
+    font-size: 19px;
+}
+img{
+    width:200px;
+    height: 220px;
+    margin-top: 31px;
+    border-radius: 15px;
+}
+#admin:hover{
+      box-shadow: -1px 4px 17px red;
+     
+}
+#teacher:hover{
+    box-shadow: -1px 4px 17px rgb(223, 41, 177);
+}
+#student:hover{
+    box-shadow: -1px 4px 17px rgb(14, 241, 33);
+}
